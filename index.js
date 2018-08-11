@@ -26,7 +26,9 @@ function dec(n){
 }
 
 function makeInt(n){
-  parseInt('n', 10)
+  if (parseInt('n', 10) === n)
+  return n }
+  
   parseInt("0x2038", 10)
   parseInt("sldkjflksjf", 10)
 }

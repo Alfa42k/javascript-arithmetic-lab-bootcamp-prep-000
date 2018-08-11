@@ -1,6 +1,6 @@
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
-  n = "50" 
+  
 function add(a, b) {
  return a + b
 }
@@ -25,3 +25,8 @@ function dec(n){
   return n -= 1
 }
 
+function makeInt(n){
+  if (parseInt (n, 10) === n){
+    return parseInt(n)
+  }
+}

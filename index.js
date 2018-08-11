@@ -29,6 +29,4 @@ function makeInt(n){
   if (parseInt('n', 10) === n)
   return n }
   
-  parseInt("0x2038", 10)
-  parseInt("sldkjflksjf", 10)
 }

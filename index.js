@@ -25,9 +25,3 @@ function dec(n){
   return n -= 1
 }
 
-function makeInt(n){
-  if (parseInt (n, 10) === 50){
-    return parseInt(n)
-  }
-  
-}
